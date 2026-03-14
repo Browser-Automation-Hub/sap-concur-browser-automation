@@ -21,27 +21,16 @@ async function login_concur(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual SAP Concur selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.CONCUR_URL}/path/to/login-concur`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('login_concur complete', result);
-      return result;
-
+      // TODO: Replace with actual SAP Concur selectors
+    // await page.goto(`${process.env.CONCUR_URL}/path/to/login-concur`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('login_concur complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-login_concur-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -61,27 +50,16 @@ async function submit_expense_report(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual SAP Concur selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.CONCUR_URL}/path/to/submit-expense-report`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('submit_expense_report complete', result);
-      return result;
-
+      // TODO: Replace with actual SAP Concur selectors
+    // await page.goto(`${process.env.CONCUR_URL}/path/to/submit-expense-report`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('submit_expense_report complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-submit_expense_report-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -101,27 +79,16 @@ async function upload_receipts(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual SAP Concur selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.CONCUR_URL}/path/to/upload-receipts`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('upload_receipts complete', result);
-      return result;
-
+      // TODO: Replace with actual SAP Concur selectors
+    // await page.goto(`${process.env.CONCUR_URL}/path/to/upload-receipts`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('upload_receipts complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-upload_receipts-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -141,27 +108,16 @@ async function approve_expense_report(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual SAP Concur selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.CONCUR_URL}/path/to/approve-expense-report`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('approve_expense_report complete', result);
-      return result;
-
+      // TODO: Replace with actual SAP Concur selectors
+    // await page.goto(`${process.env.CONCUR_URL}/path/to/approve-expense-report`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('approve_expense_report complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-approve_expense_report-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
@@ -181,27 +137,16 @@ async function extract_spend_data(page, opts = {}) {
 
   return retry(async () => {
     await humanDelay(500, 1500);
-
-    // TODO: Replace selectors with actual SAP Concur selectors
-    // These are placeholder implementations — inspect the actual UI
-    // and update the selectors accordingly.
-
     try {
-      // Example: navigate to the relevant section
-      // await page.goto(`${process.env.CONCUR_URL}/path/to/extract-spend-data`);
-      // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
-
-      // Extract or interact with data
-      const result = await page.evaluate(() => {
-        // DOM extraction placeholder
-        return { status: 'ok', data: null };
-      });
-
-      log('extract_spend_data complete', result);
-      return result;
-
+      // TODO: Replace with actual SAP Concur selectors
+    // await page.goto(`${process.env.CONCUR_URL}/path/to/extract-spend-data`);
+    // await page.waitForSelector('.main-content, #content, [data-testid="loaded"]', { timeout: 15000 });
+    const result = await page.evaluate(() => {
+      return { status: 'ok', data: null };
+    });
+    log('extract_spend_data complete', result);
+    return result;
     } catch (err) {
-      // Take screenshot on error for debugging
       await page.screenshot({ path: `error-extract_spend_data-${Date.now()}.png` }).catch(() => {});
       throw err;
     }
